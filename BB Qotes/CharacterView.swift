@@ -17,7 +17,7 @@ struct CharacterView: View {
                 VStack {
                     Image(show.lowercased().filter {$0 != " "})
                         .resizable()
-                    .scaledToFit()
+                        .scaledToFit()
                     Spacer()
                 }
                 VStack {
@@ -57,7 +57,7 @@ struct CharacterView: View {
 
 struct CharacterView_Previews: PreviewProvider {
     static var previews: some View {
-        CharacterView(show: "Breaking Bad", character: try! JSONDecoder().decode(Character.self, from: Data(contentsOf: Bundle.main.url(forResource: "samplecharacter", withExtension: "json")!)))
+        CharacterView(show: "breakingbad", character: Character(name: "Elisei", birthday: "20.05.1993", occupation: ["cool guy"], img: URL(string: "https://images.amcnetworks.com/amc.com/wp-content/uploads/2015/04/cast_bb_700x1000_walter-white-lg.jpg")!, nickname: "syper", portrayed: "gica hagi"))
             .preferredColorScheme(.dark)
     }
 }

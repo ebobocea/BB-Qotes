@@ -11,6 +11,13 @@
 		E6F2638C286C763900C936D1 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6F2638B286C763900C936D1 /* ContentView.swift */; };
 		E6F2638E286C763900C936D1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E6F2638D286C763900C936D1 /* Assets.xcassets */; };
 		E6F26391286C763900C936D1 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E6F26390286C763900C936D1 /* Preview Assets.xcassets */; };
+		E6F26398286C78DA00C936D1 /* samplecharacter.json in Resources */ = {isa = PBXBuildFile; fileRef = E6F26397286C78DA00C936D1 /* samplecharacter.json */; };
+		E6F2639A286C7C1500C936D1 /* Quote.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6F26399286C7C1500C936D1 /* Quote.swift */; };
+		E6F2639C286C7F2100C936D1 /* Character.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6F2639B286C7F2100C936D1 /* Character.swift */; };
+		E6F2639E286C825D00C936D1 /* FetchController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6F2639D286C825D00C936D1 /* FetchController.swift */; };
+		E6F263A0286C8E1400C936D1 /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6F2639F286C8E1400C936D1 /* ViewModel.swift */; };
+		E6F263A2286C941200C936D1 /* QuoteView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6F263A1286C941200C936D1 /* QuoteView.swift */; };
+		E6F263A4286CDD4700C936D1 /* CharacterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6F263A3286CDD4700C936D1 /* CharacterView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +26,13 @@
 		E6F2638B286C763900C936D1 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		E6F2638D286C763900C936D1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E6F26390286C763900C936D1 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		E6F26397286C78DA00C936D1 /* samplecharacter.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = samplecharacter.json; sourceTree = SOURCE_ROOT; };
+		E6F26399286C7C1500C936D1 /* Quote.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Quote.swift; sourceTree = "<group>"; };
+		E6F2639B286C7F2100C936D1 /* Character.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Character.swift; sourceTree = "<group>"; };
+		E6F2639D286C825D00C936D1 /* FetchController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FetchController.swift; sourceTree = "<group>"; };
+		E6F2639F286C8E1400C936D1 /* ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModel.swift; sourceTree = "<group>"; };
+		E6F263A1286C941200C936D1 /* QuoteView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuoteView.swift; sourceTree = "<group>"; };
+		E6F263A3286CDD4700C936D1 /* CharacterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharacterView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +67,13 @@
 			children = (
 				E6F26389286C763900C936D1 /* BB_QotesApp.swift */,
 				E6F2638B286C763900C936D1 /* ContentView.swift */,
+				E6F263A1286C941200C936D1 /* QuoteView.swift */,
+				E6F263A3286CDD4700C936D1 /* CharacterView.swift */,
+				E6F2639D286C825D00C936D1 /* FetchController.swift */,
+				E6F2639F286C8E1400C936D1 /* ViewModel.swift */,
+				E6F26399286C7C1500C936D1 /* Quote.swift */,
+				E6F2639B286C7F2100C936D1 /* Character.swift */,
+				E6F26397286C78DA00C936D1 /* samplecharacter.json */,
 				E6F2638D286C763900C936D1 /* Assets.xcassets */,
 				E6F2638F286C763900C936D1 /* Preview Content */,
 			);
@@ -126,6 +147,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E6F26391286C763900C936D1 /* Preview Assets.xcassets in Resources */,
+				E6F26398286C78DA00C936D1 /* samplecharacter.json in Resources */,
 				E6F2638E286C763900C936D1 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -138,7 +160,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				E6F2638C286C763900C936D1 /* ContentView.swift in Sources */,
+				E6F2639A286C7C1500C936D1 /* Quote.swift in Sources */,
 				E6F2638A286C763900C936D1 /* BB_QotesApp.swift in Sources */,
+				E6F2639E286C825D00C936D1 /* FetchController.swift in Sources */,
+				E6F263A2286C941200C936D1 /* QuoteView.swift in Sources */,
+				E6F263A0286C8E1400C936D1 /* ViewModel.swift in Sources */,
+				E6F263A4286CDD4700C936D1 /* CharacterView.swift in Sources */,
+				E6F2639C286C7F2100C936D1 /* Character.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -270,6 +298,7 @@
 				DEVELOPMENT_TEAM = 2B43974B8L;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "Say My Name";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -299,6 +328,7 @@
 				DEVELOPMENT_TEAM = 2B43974B8L;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "Say My Name";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;

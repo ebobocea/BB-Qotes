@@ -19,6 +19,7 @@ struct ContentView: View {
                     Label("Better Call Saul", systemImage: "briefcase")
                 }
         }
+        
         .onAppear{
             UITabBar.appearance().scrollEdgeAppearance = UITabBarAppearance()
         }

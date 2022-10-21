@@ -25,6 +25,7 @@ struct QuoteView: View {
                         Text("\"\(data.0.quote)\"")
                             .multilineTextAlignment(.center)
                             .foregroundColor(.white)
+                            .background(.gray.opacity(0.33))
                             .padding()
                         
                         ZStack{
@@ -82,5 +83,6 @@ struct QuoteView: View {
 struct QuoteView_Previews: PreviewProvider {
     static var previews: some View {
         QuoteView(show: "Breaking Bad")
+            .preferredColorScheme(.dark)
     }
 }
